@@ -1,0 +1,31 @@
+header {
+    padding-left: 100px;
+    padding-right: 350px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        width: 200px;
+    }
+    .nav_principal ul{
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .nav_principal ul li{
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        color: white;
+        list-style: none;
+    }
+    .nav_principal ul li:hover{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        list-style: none;
+    }
+    
+}

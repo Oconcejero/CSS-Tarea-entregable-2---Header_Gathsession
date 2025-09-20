@@ -1,10 +1,20 @@
 <!doctype html>
-<html lang="">
+<html lang="es">
+<!-- Tengo varias dificultades. 
+ Primeramente el texto de la diapo, Merriweather, pero yo lo veo diferente.
+ Le he dado un letter-spacing pero sigo viéndola diferente.
 
+ Probablemente sea algo muy básico pero soy incapaz de darle un alto máximo a
+ la página para que no se vea gris hasta el fondo haciendo scroll.
+
+ Igual que conseguir ajustar para que la imagen llegue a cortar justo en el
+ lado derecho de la página y no queden las "elipses" flotando en la nada.
+
+ -->
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>CSS Tarea entregable 2 - Header_Gathsession</title>
   <link rel="stylesheet" href="css/style.css">
   <meta name="description" content="">
 
@@ -13,19 +23,72 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
   <meta property="og:image:alt" content="">
-
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" type="image/x-icon" href="img/icon.png">
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <header class="principal">
+      <div class="logotipo">
+        <img src="img/logo_GathSession..svg" alt="Logotipo GathSession">
+      </div>
 
-<p>hola que tal</p>
+      <nav class="nav_principal">
+        <ul>
+          <li>Home</li>
+          <li>Features</li>
+          <li>Blog</li>
+          <li>Contact</li>
+          <li>About Us</li>
+        </ul>
+      </nav>
+  </header>
 
+  <main>
+      <div class="container_principal">
+        <div class="left">
+          <section>
+            <h1>Build your best community starting from here.</h1>
+            <p class="subtitle">Meet and communicate with the best people to run projects, events or other activities in a more effective and fun way</p>
+          </section>
+          <div class="buttons">
+            <a href="#" class="button_get_started">Get Started</a>
+            <a href="#" class="button_learn_more">Learn More <img src="img/icon_arrow.svg" alt="arrow"></a>
+          </div>
+          <section class="categories">
+            <div class="build">
+              <img src="img/icon_comments.svg" alt="Build Community">
+              <p>Build Community</p>
+            </div>
+            <div class="share">
+              <img src="img/icon_week_schedule.svg" alt="Share Events">
+              <p>Share Events</p>
+            </div>
+            <div class="get">
+              <img src="img/icon_post.svg" alt="Get Information">
+              <p>Get Information</p>
+            </div>
+          </section>
+        </div>
+        
+        <div class="right">
+          <section class="imgs">
+            <img src="img/image_001_2x.png" class="img_p_01" alt="img1">
+            <img src="img/image_002_2x.png" class="img_p_02" alt="img2">
+            <img src="img/image_003_2x.png" class="img_p_03" alt="img3">
+            <img src="img/image_004_2x.png" class="img_p_04" alt="img4">
+            <img src="img/image_005_2x.png" class="img_p_05" alt="img5">
+          </section>
+          <img src="img/ellipse.svg" class="elipse_01" alt="img_background_01">
+          <img src="img/ellipse.svg" class="elipse_02" alt="img_background_02">
+        </div>
+      </div>
+  </main>
 </body>
 
 </html>
