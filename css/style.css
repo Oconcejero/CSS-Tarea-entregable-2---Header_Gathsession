@@ -115,9 +115,6 @@ main .left .categories img {
   padding: 10px;
   border-radius: 10px;
 }
-main .left .categories img:hover {
-  background-color: rgba(206, 32, 148, 0.555);
-}
 main .left .build {
   display: flex;
   align-items: center;
@@ -182,7 +179,6 @@ main .right .elipse_02 {
 
 body {
   background-color: #2B2D38;
-  max-height: 600px;
 }
 
 /*# sourceMappingURL=style.css.map */
