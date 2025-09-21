@@ -60,7 +60,7 @@ main {
         border-bottom-left-radius: 0px;
         text-decoration: none; 
     }
-    .categories {
+    .categories{
         max-width: 80%;
         padding-top: 120px;
         display: flex;
@@ -78,11 +78,7 @@ main {
             padding: 10px;
             border-radius: 10px;
         }
-        img:hover{
-            
-            background-color: rgba(206, 32, 148, 0.555);
-
-        }
+        
     }
     .build{
         display: flex;
