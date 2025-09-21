@@ -1,11 +1,13 @@
-/* COLORES */
-/*responsive*/
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+/* Error: expected "{".
+ *   ,
+ * 3 |     background-color: $clr_greydark;
+ *   |                                    ^
+ *   '
+ *   sass\layout\_body.scss 3:36   @import
+ *   sass\layout\_layout.scss 9:9  @import
+ *   sass\style.scss 5:9           root stylesheet */
 
+<<<<<<< HEAD
 header {
   padding-left: 100px;
   padding-right: 350px;
@@ -182,3 +184,15 @@ body {
 }
 
 /*# sourceMappingURL=style.css.map */
+=======
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a   \2577 \a 3 \2502      background-color: $clr_greydark;\d\a   \2502                                     ^\a   \2575 \a   sass\\layout\\_body.scss 3:36   @import\a   sass\\layout\\_layout.scss 9:9  @import\a   sass\\style.scss 5:9           root stylesheet';
+}
+>>>>>>> 1fcf6799b1d0096ec73b37ff23f22b34e99f4eb2
