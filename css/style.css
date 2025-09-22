@@ -37,8 +37,6 @@ header .nav_principal ul li:hover {
   list-style: none;
 }
 
-<<<<<<< HEAD
-=======
 .container {
   z-index: -5;
   width: 100%;
@@ -46,7 +44,6 @@ header .nav_principal ul li:hover {
   background-color: #2B2D38;
 }
 
->>>>>>> df129ddbdf42025b6a2bede640320c0ff8481b3a
 main .container_principal {
   display: flex;
   justify-content: space-between;
@@ -141,10 +138,6 @@ main .left .get {
   gap: 10px;
 }
 main .right .imgs {
-<<<<<<< HEAD
-=======
-  z-index: 1;
->>>>>>> df129ddbdf42025b6a2bede640320c0ff8481b3a
   width: 700px;
   margin-left: 50px;
   margin-right: 60px;
@@ -154,6 +147,7 @@ main .right .imgs {
   gap: 10px;
   position: relative;
   top: -50px;
+  z-index: 1;
 }
 main .right .imgs .img_p_01 {
   width: 200px;
@@ -181,24 +175,12 @@ main .right .elipse_01 {
   width: 500px;
   top: -600px;
   right: -270px;
-<<<<<<< HEAD
-  z-index: -1;
-=======
->>>>>>> df129ddbdf42025b6a2bede640320c0ff8481b3a
 }
 main .right .elipse_02 {
   position: relative;
   width: 750px;
   top: -1200px;
   right: -10px;
-<<<<<<< HEAD
-  z-index: -1;
-}
-
-body {
-  background-color: #2B2D38;
-=======
->>>>>>> df129ddbdf42025b6a2bede640320c0ff8481b3a
 }
 
 /*# sourceMappingURL=style.css.map */

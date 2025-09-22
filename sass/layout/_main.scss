@@ -98,7 +98,6 @@ main {
     }
     .right{
         .imgs {
-            z-index: 1;
             width: 700px;
             margin-left: 50px;
             margin-right: 60px;
@@ -108,6 +107,7 @@ main {
             gap: 10px;
             position: relative;
             top: -50px;
+            z-index: 1;
             .img_p_01 {
                 width: 200px;
             }
@@ -135,7 +135,6 @@ main {
             width: 500px;
             top: -600px;
             right: -270px;
-            
         }
         .elipse_02 {
             position: relative;
